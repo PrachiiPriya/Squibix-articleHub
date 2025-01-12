@@ -1,0 +1,23 @@
+/* HomePage.module.css */
+
+.homePageContainer {
+  padding: 20px;
+}
+
+.controlsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.articleGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+}

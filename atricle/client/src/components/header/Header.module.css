@@ -1,0 +1,43 @@
+/* Header.module.css */
+
+/* SearchBar Styles */
+.searchBarContainer {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.searchInput {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* FilterPills Styles */
+.filterPillsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.filterPill {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.filterPill:hover {
+  background-color: #e0e0e0;
+}
+
+.activePill {
+  background-color: #4caf50;
+  color: white;
+}
